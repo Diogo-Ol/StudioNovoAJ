@@ -1,0 +1,166 @@
+@media (min-width:0px){
+    .titulo__menu{
+        color: #960064;
+    }
+    .traducao-pagina-pt{
+        color: #960064;
+    }
+    .container__imagem-sobre-projeto{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        gap: 2rem;
+
+        padding-bottom:  2rem;
+
+    }
+    .secao__menu-principal {
+        padding: 0rem 0 0 0;
+        gap: 2rem;
+    }
+    #imagem-did{
+        width: 79.2vw;
+        height: auto;
+    }
+    #imagem-sobre-projeto{
+        width: 79.2vw;
+        height: auto;
+        padding: 0%;
+    }
+    #imagem-banner{
+        width: 100vw;
+        height: auto;
+    }
+    .container__imagem-numeros{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    #imagem-numeros{
+        width: 79.2vw;
+        height: auto;
+
+    }
+    .container__imagem-menu-principal{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        gap: 2rem;
+
+        padding-bottom:  0;
+    }
+    .container__imagem-menu-principal-secao-2{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        gap: 2rem;
+
+        padding-bottom:  8.125rem;
+    }
+    .container__imagens-duplas{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        align-items: center;
+
+        width: 79.2vw;
+    }
+    #imagem-menu-principal-dupla{
+        width: 38.5vw;
+        height: auto;
+    }
+    #imagem__menu-principal{
+        width: 38.5vw;
+        height: auto;
+    }
+    .imagem__menu-principal-3{
+        width: 79.2vw;
+        height: auto;
+    }
+    #imagem-proximo-projeto{
+        width: 100vw;
+        height: auto;
+    }
+    .titulo__banner{
+        color: #960064;
+    }
+    .titulo__sobre{
+        margin-top: 1.375rem;
+    }
+    /*------------------------NUMERO-PROJETOS-------------------------*/
+    .numero-projetos{
+        color: #960064;
+    }
+
+    #link__sobre-app-vivaz{
+        visibility: hidden;
+    }
+    .subtitulo__mobile{
+        display: none;
+    }
+}
+
+@media (max-width:1024px){
+    .titulo__did{
+        font-size: 24px;
+    }
+    #imagem-did{
+        width: 90vw;
+        height: auto;
+    }
+    .container__imagem-sobre-projeto{
+        padding-bottom: 1rem;
+        gap: 1rem;
+    }
+    #imagem-sobre-projeto{
+        width: 90vw;
+        height: auto;
+    }
+    #imagem-banner{
+        width: 100vw;
+        height: auto;
+    }
+    #imagem-numeros{
+        width: 90vw;
+        height: auto;
+
+    }
+    .container__imagem-menu-principal{
+        padding-bottom: 0;
+        gap: 1rem;
+    }
+    .secao__menu-principal {
+        padding: 0rem 0 0 0;
+        gap: 1rem;
+    }
+    .container__imagem-menu-principal-secao-2{
+        padding-bottom: 0rem;
+        gap: 1rem;
+    }
+    .container__imagens-duplas{
+        width: 90vw;
+        gap: 1rem;
+    }
+    #imagem__menu-principal{
+        width: 42.5vw;
+        height: auto;
+    }
+    .imagem__menu-principal-3{
+        width: 90vw;
+    }
+    #imagem-proximo-projeto{
+        width: 100vw;
+        height: auto;
+    }
+    .titulo__sobre{
+        margin-top: 1.375rem;
+    }
+    /*------------------------NUMERO-PROJETOS-------------------------*/
+    #link__sobre-app-vivaz{
+        visibility: hidden;
+    }
+    .subtitulo__mobile{
+        display: none;
+    }
+}

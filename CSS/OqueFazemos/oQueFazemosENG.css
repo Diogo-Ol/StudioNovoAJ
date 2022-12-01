@@ -1,0 +1,31 @@
+@media (min-width:0px){
+    /*----------------------NAV----------------*/
+    .traducao-pagina-pt{
+        color: var(--high-dark);
+        font-weight: 500;
+    }
+    .traducao-pagina-en {  
+        color: var(--low-pure);
+        font-weight: 500;
+    }
+    .imagem__metodologia{
+        background-image: url("../../Assets/SobreNos/banner-oquefazer-eng.png");
+    }
+
+
+    /*----------------------QUOTES---------------------*/
+    #comentario-incompleto{
+        display: none;
+    }
+    .lista__comentarios{
+        width: auto;
+    }
+
+}
+
+@media (max-width:1024px){
+    .imagem__metodologia{
+        background-image: url("../../Assets/SobreNos/imagem-o-que-fazemos-ENG-mobile.png");
+        height: 17.25rem;
+    }
+}

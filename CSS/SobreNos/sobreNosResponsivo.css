@@ -1,0 +1,508 @@
+@media (max-width:1024px){
+    /*-------------------------------CABECALHO--------------------------------*/
+    .cabecalho{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    
+    .logo-studio{
+        margin: 0%;
+    }
+    .container__nav{
+        margin: 0%;
+    }
+    .container__nav{
+        gap: 1.125rem;
+    }
+    /*-------------------------------BANNER--------------------------------*/
+    .banner{
+        padding: 11rem 0 0 .938rem ;
+        margin-top:0%;
+    }
+    .titulo__banner{
+        font-size: 88px;
+        line-height: 100%;
+    }
+    /*-------------------------------MAPA--------------------------------*/
+    .mapa{
+        width: 100vw;
+        height: 22rem;
+
+        background-size: 140vw;
+
+        margin-top: 4.375rem;
+    }
+    /*-------------------------------INTRO--------------------------------*/
+    .intro{
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 7.5rem;
+
+        gap: 0;
+    }
+    .container__info___intro{
+        flex-direction: column;
+        gap: 1rem;
+
+        margin-bottom: 7.5rem;
+    }
+    .titulo__intro{
+        font-size: 40px;
+    }
+    .container__descricao___info{
+        width: 20.75rem;
+
+        font-size: 16px;
+    }
+    .sub-descricao__intro, .descricao__intro{
+        display: block;
+    }
+    .descricao__mobile{
+        display: flex;
+    }
+
+    .banner__intro-1, .imagem__banner__intro-1{
+        width: 20.875rem;
+        height: 25.188rem;
+
+        margin-bottom: 7.5rem;
+    }
+    .banner__intro-2{
+        margin-bottom: 7.5rem;
+    }
+    .titulo__banner___intro{
+        font-size: 40px;
+    }
+    .descricao__banner___intro{
+        font-size: 1rem;
+
+        width: 20.75rem;
+    }
+
+    .banner__intro-3{
+        width: 90vw;
+        height: 51.125rem;
+
+        background-position-x: center, center, center;
+        background-position-y: top, 54.5%, bottom;
+        background-size: 20.938rem 16.375rem, 12.063rem 17.063rem, 20.875rem 13.375rem;
+
+        margin-top: 0;
+    }
+    /*--------------------------PATROCINADORES--------------------*/
+    .secao__patrocinadores{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+
+        padding-top: 9.5rem;
+
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+        color: var(--high-pure);
+        background-color: var(--low-pure);
+
+        height: 43rem;
+        padding-bottom: 0%;
+    }
+    .titulo__patrocinadores{
+        font-size: 16px;
+        margin-bottom: 5.5rem;
+    }
+    .titulo__patrocinadores::selection{
+        background-color: var(--high-pure);
+        color: var(--low-pure);
+    }
+    .container__logo___patrocinadores{
+        display: flex;
+        flex-direction: column;
+        gap: 6rem;
+        margin-bottom: 6.563rem;
+    }
+    .container__patrocinadores{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 56px;
+        overflow-y: hidden;
+        gap: 0rem;
+    }
+
+    .logo__patrocinadores-1{
+        position: relative;
+        animation: anima-logo-1 7s infinite alternate ease-in-out;
+        
+        
+    } 
+    .logo__patrocinadores-2{
+        position: relative;
+        animation: anima-logo-2 7s infinite alternate ease-in-out;
+    }
+    .logo__patrocinadores-3{
+        position: relative;
+        animation: anima-logo-3 7s infinite alternate ease-in-out;
+    }
+    /*-------------------------------O-QUE-FAZEMOS--------------------------------*/
+    .do{
+        padding-top: 7.5rem;
+        gap: 7.5;
+    }
+    .container__info___do{
+        padding-left: 1.375rem;
+        width: 20.75rem;
+
+        margin:0%;
+    }
+    .titulo__do{
+        font-size: 40px;
+    }
+    .descricao__do{
+        font-size: 16px;
+        line-height: var(--line-lg);
+    }
+    .banner__do{
+        width: 20.75rem;
+        height: 16.875rem;
+
+        background-image: url("../../Assets/SobreNos/banner-oquefazer-mobile.png");
+        background-size: 20.75rem 16.875rem;
+        background-position-x: center;
+        background-position-y: center;
+    }
+    .botao__explore{
+        display: none;
+    }
+    /*-------------------------------TIME--------------------------------*/
+    .time{
+        padding-bottom: 9.063rem;
+        padding-top: 7.5rem;
+    }
+    .info__time{
+        padding-left: 1.375rem;
+    }
+    .titulo__info___time{
+        font-size: 40px;
+    }
+    .descricao__info___time{
+        display: none;
+    }
+    .time-studio{
+        flex-direction: column;
+    }
+    .time-studio-2, .time-studio-1{
+        display: none;
+    }
+    .time-studio__mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4.375rem;
+    }
+    .container__time-studio{
+        width: 20.688rem;
+    }
+    .imagem__time{
+        width: 20.688rem;
+        height: 23.375rem;
+    }
+    /*-----------------------COMENTARIOS----------------------------*/
+    .secao__comentarios{
+        padding-left: 4.5vw;
+        padding-right: 4.5vw;
+        padding-top: 6.2rem;
+
+        height: 47rem;
+    }
+    .lista__comentarios{
+        transition: all .2s ease-in-out;
+        width: 184vw;
+    }
+    .item__lista___comentarios{
+        margin-bottom: 6.938rem;
+    }
+    .cabecalho__comentarios{
+        bottom: -1.35rem;
+    }
+    .container__carousel{
+        width: 92vw;
+        height: 51rem;    
+    }
+    .comentario{
+        font-size: var(--font-sm);
+        padding-right: 0%;
+        width:92vw;
+    }
+    .icone__perfil___comentario{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .nome__perfil___comentario{
+        font-size: 20px;
+    }
+    .container__botao___comentario{
+        width: 92vw;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+    .botao__anterior___comentario, .botao__proximo___comentario{
+        width: 44.5vw;
+    }
+    
+    /*----------------------RODAPE----------------------*/
+    .rodape{
+        height: auto;
+        margin-top: 4rem;
+    }
+    .secao__info___rodape{
+        height: auto;
+        flex-direction: column;
+        border: none;
+        padding-bottom: 0%;
+        padding-left: 0rem;
+    }
+    .secao__titulo___rodape{
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 1.5rem;
+        width: 90vw;
+    }
+    .titulo__rodape{
+        padding-right: 2.6rem;
+    }
+    .botao__talk___footer{
+        width: 14.625rem;
+        margin-top: 2.9rem;
+    }
+    .redes__sociais___rodape{
+        gap: 0%;
+        justify-content: space-between;
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+    .link__redes-sociais___mobile{
+        display: block;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .abas__footer{
+        flex-direction: column;
+        padding-bottom: 0%;
+        padding-left: 0;
+        padding-top: 3rem;
+        width: 90vw;
+    }
+    .container__abas{
+        flex-direction: column-reverse;
+        padding-left: 0%;
+        gap: 0%;
+        border-bottom: 1px solid var(--low-pure);
+        padding-bottom: 3.125rem;
+        margin-top: 2.5rem;
+    }
+    .aba{
+        height: 10.688rem;
+    }
+    .secao__brand{
+        width: 90vw;
+        padding-top: 2rem;
+        padding-bottom: 2.313rem;
+    } 
+    .container__ico___redes-sociais{
+        display: none;
+    }
+    .container__ico___redes-sociais-mobile{
+        display: flex;
+        gap: .5rem;
+    }
+    .link__redes-sociais{
+        visibility: hidden;
+    }
+    .link__fim{
+        margin-top: 4rem;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    /*-------------------------------BANNER--------------------------------*/
+    .titulo__banner{
+        font-size: var(--font-xl);
+    }
+    
+    /*-------------------------------MAPA--------------------------------*/
+    .mapa{
+        height: 40rem;
+    }
+    /*-------------------------------INTRO--------------------------------*/
+    .titulo__intro{
+        font-size: var(--font-md);
+    }
+    .descricao__mobile{
+        display: flex;
+        font-size: 20px;
+    }
+    /*-------------------------------DO--------------------------------*/
+    .container__info___do{
+        width: 21.75rem;
+    }
+    .titulo__do{
+        font-size: var(--font-md);
+    }
+    .descricao__do{
+        font-size: 20px;
+    }
+    .banner__do {
+        width: 43.75rem;
+        height: 31.875rem;
+        background-image: url("../../Assets/SobreNos/banner-oquefazer.png");
+        background-size: 43.75rem 31.875rem;
+    }
+    /*-------------------------------TIME--------------------------------*/
+    .container__time-studio{
+        width: 32.688rem;
+    }
+    .imagem__time{
+        width: 32.688rem;
+        height: 36.438rem;
+    }
+    /*-----------------------COMENTARIOS----------------------------*/
+    .secao__comentarios{
+        padding-left: 3.2rem;
+    }
+    .botao__anterior___comentario, .botao__proximo___comentario{
+        width: 47vw;
+    }
+
+    .secao__comentarios{
+        height:54rem;
+    }
+    .item__lista___comentarios{
+        height: 21rem;
+    }
+    .container__carousel{
+        height: 26rem;
+    }
+    /*------------------------------RODAPE-------------------------*/
+    .secao__titulo___rodape{
+        padding-left: 0%;
+        width: 90vw;
+    }
+    .secao__info___rodape{
+        padding-left: 0rem;
+    }
+    .abas__footer{
+        padding-left: 0%;
+    }
+    @keyframes movimenta-titulo-1 {
+        0%{
+            position: relative;
+            right: 10%;
+        }
+        75%{
+            animation: paused;
+        }
+        100%{
+            position: relative;
+            right: 350%;
+        }  
+    }
+    
+    @keyframes movimenta-titulo-2 {
+        0%{
+            position: relative;
+            left: -350%;
+        }
+        35%{
+            animation: paused;
+        }
+        100%{
+            position: relative;
+            left: 10%;
+        }  
+    }
+
+    .newsletter{
+        background-position-y: top;
+        background-position-x: 2.7rem;
+        padding-top: 31.5rem;
+        background-size: 28rem 28rem;
+
+        height: 47rem;
+    }
+
+    .rodape{
+        height: 71.5rem;
+    }
+
+    .secao__info___rodape{
+        padding-bottom: 0%;
+        margin-bottom: 3rem;
+        height: 57rem;
+    }
+    .secao__titulo___rodape{
+        padding-left: 0%;
+    }
+    .container__abas{
+        padding-bottom: 9.125rem;
+    }
+
+    .titulo__rodape{
+        font-size: 60px;
+    }
+    .botao__talk___footer{
+        width: 60vw;
+    }
+
+    .titulo__aba{
+        font-size: var(--font-sm);
+    }
+    .item__aba{
+        font-size:var(--font-xs);
+    }
+    .aba{
+        height: 13.688rem;
+        width: 12.5rem
+    }
+    .secao__brand{
+        padding-top: 0;
+    }
+    .titulo__brand{
+        font-size: 20px;
+    }
+
+}
+@media (min-width:1025px) and (max-width:1355px){
+    /*-------------------------------TIME--------------------------------*/
+    .time-studio{
+        gap: 9vw;
+    }
+    /*----------------------------COMENTARIO-----------------*/
+    .comentario {
+        padding-right: 2.417rem;
+    }
+    .item__lista___comentarios{
+        height: 54rem;
+    }
+    /*-----------------------RODAPE----------------------------------*/
+    .secao__brand{
+        width: 80vw;
+    }
+}
+
+@media (min-width:1600px) {
+    /*------------------------MAPA---------------------------*/
+    .mapa{
+        height: 79rem;
+    }
+    /*-------------------------------COMENTARIO--------------------*/
+    .secao__comentarios{
+        padding-left: 10vw;
+        padding-right: 4.5rem;
+    }
+    /*-----------------------RODAPE----------------------------------*/
+    .secao__info___rodape{
+        width: 80vw;
+     }
+     .secao__brand{
+        width: 80vw;
+    }
+}

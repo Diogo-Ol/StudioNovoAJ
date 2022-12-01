@@ -1,0 +1,31 @@
+@media (min-width:0px){
+    /*----------------------NAV----------------*/
+    .traducao-pagina-pt{
+        color: var(--high-dark);
+        font-weight: 500;
+    }
+    .traducao-pagina-en {  
+        color: var(--low-pure);
+        font-weight: 500;
+    }
+    /*------------------------WORKS------------------------*/
+    #card-incompleto{
+        animation: none;
+    }
+    .container__cards:hover{
+        cursor: url("../../Assets/interacoes/GetInTouch/view-white-en.svg") 25 30, default;
+    }
+    .card-works:hover{
+        cursor: url("../../Assets/interacoes/GetInTouch/view-white-en.svg") 25 30, default;
+    }
+    #card-incompleto:hover{
+        cursor: url("../../Assets/interacoes/GetInTouch/soon-eng.svg") 25 30, default;
+    }
+    /*----------------------QUOTES---------------------*/
+    #comentario-incompleto{
+        display: none;
+    }
+    .lista__comentarios{
+        width: auto;
+    }
+}

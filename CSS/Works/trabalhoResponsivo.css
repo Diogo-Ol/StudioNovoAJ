@@ -1,0 +1,360 @@
+@media (max-width:1024px){
+    /*-------------------------------CABECALHO--------------------------------*/
+    .cabecalho{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    
+    .logo-studio{
+        margin: 0%;
+    }
+    .container__nav{
+        margin: 0%;
+    }
+    .container__nav{
+        gap: 1.125rem;
+    }
+    /*-------------------------------BANNER--------------------------------*/
+    .banner{
+        padding: 11rem 0 0 0rem ;
+        margin-top:0%;
+
+        flex-direction: column;
+        justify-content: center;
+    }
+    .titulo__banner{
+        font-size: 40px;
+        line-height: 100%;
+
+        margin-bottom: 2rem;
+
+        width: 20.688rem;
+    }
+    .descricao__banner{
+        font-size: 20px;
+        width: 20.688rem;
+    }
+    .break{
+        display: none;
+    }
+    .container__descricao{
+        gap: 1.5rem;
+        width: 20.688rem;
+    }
+    /*------------------------------CLIENTES-PROJETOS-------------------*/
+    .cliente-projetos{
+        padding-left: 1.25rem;
+        padding-right: 1.5rem;
+
+        padding-top: 3.563rem;
+
+        justify-content: center;
+    }
+    .container__card___cliente-projetos{
+        width: 20.688rem;
+        height: 13rem;
+    }
+    .botao__case___cliente-projeto{
+        width: auto;
+    }
+    .titulo__card___cliente-projeto{
+        font-size: 24px;
+    }
+    .descricao__card___cliente-projeto{
+        font-size: 16px;
+        margin-bottom: 2.969rem;
+    }
+    #card-incompleto{
+        height: 10.5rem;
+        margin-bottom: 0%;
+    }
+    /*-----------------------COMENTARIOS----------------------------*/
+    .secao__comentarios{
+        padding-left:  5vw;
+        padding-right: 5vw;
+        padding-top: 6.2rem;
+
+        height: 47rem;
+    }
+    .lista__comentarios{
+        transition: all .2s ease-in-out;
+        width: 184vw;
+    }
+    .item__lista___comentarios{
+        margin-bottom: 6.938rem;
+    }
+    .cabecalho__comentarios{
+        bottom: -1.35rem;
+    }
+    .container__carousel{
+        width: 92vw;
+        height: 54rem;
+    }
+    .comentario{
+        font-size: var(--font-sm);
+        padding-right: 0%;
+        width:92vw;
+    }
+    .icone__perfil___comentario{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .nome__perfil___comentario{
+        font-size: 20px;
+    }
+    .container__botao___comentario{
+        width: 92vw;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+    .botao__anterior___comentario, .botao__proximo___comentario{
+        width: 44.5vw;
+    }
+
+    /*----------------------RODAPE----------------------*/
+    .rodape{
+        height: auto;
+        margin-top: 4rem;
+    }
+    .secao__info___rodape{
+        height: auto;
+        flex-direction: column;
+        border: none;
+        padding-bottom: 0%;
+        padding-left: 0;
+    }
+    .secao__titulo___rodape{
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 1.5rem;
+        width: 90vw;
+    }
+    .titulo__rodape{
+        padding-right: 2.6rem;
+    }
+    .botao__talk___footer{
+        width: 14.625rem;
+        margin-top: 2.9rem;
+    }
+    .redes__sociais___rodape{
+        gap: 0%;
+        justify-content: space-between;
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+    .link__redes-sociais___mobile{
+        display: block;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .abas__footer{
+        flex-direction: column;
+        padding-bottom: 0%;
+        padding-left: 0;
+        padding-top: 3rem;
+        width: 90vw;
+    }
+    .container__abas{
+        flex-direction: column-reverse;
+        padding-left: 0%;
+        gap: 0%;
+        border-bottom: 1px solid var(--low-pure);
+        padding-bottom: 3.125rem;
+        margin-top: 2.5rem;
+    }
+    .aba{
+        height: 10.688rem;
+    }
+    .secao__brand{
+        width: 90vw;
+        padding-top: 2rem;
+        padding-bottom: 2.313rem;
+    } 
+    .container__ico___redes-sociais{
+        display: none;
+    }
+    .container__ico___redes-sociais-mobile{
+        display: flex;
+        gap: .5rem;
+    }
+    .link__redes-sociais{
+        visibility: hidden;
+    }
+    .link__fim{
+        margin-top: 4rem;
+    }
+
+    .newsletter{
+        height: 52rem;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    /*--------------BANNER-------------------*/
+    .banner{
+        margin-bottom: 4rem;
+        flex-direction: row;
+        align-items: center;
+    }
+    .titulo__banner{
+        width: 17.688rem
+    }
+    /*-----------------CLIENTES-----------*/
+    .cliente-projetos{
+        justify-content: center;
+        
+    }
+    .container__card___cliente-projetos{
+        height: 16.125rem;
+        justify-content: space-between;
+    }
+    /*------------------------------RODAPE-------------------------*/
+    .secao__titulo___rodape{
+        padding-left: 0%;
+        width: 90vw;
+    }
+    .secao__info___rodape{
+        padding-left: 0rem;
+    }
+    .abas__footer{
+        padding-left: 0%;
+    }
+    @keyframes movimenta-titulo-1 {
+        0%{
+            position: relative;
+            right: 10%;
+        }
+        75%{
+            animation: paused;
+        }
+        100%{
+            position: relative;
+            right: 350%;
+        }  
+    }
+    
+    @keyframes movimenta-titulo-2 {
+        0%{
+            position: relative;
+            left: -350%;
+        }
+        35%{
+            animation: paused;
+        }
+        100%{
+            position: relative;
+            left: 10%;
+        }  
+    }
+
+    .newsletter{
+        background-position-y: top;
+        background-position-x: 2.7rem;
+        padding-top: 31.5rem;
+        background-size: 28rem 28rem;
+
+        height: 47rem;
+    }
+
+    .rodape{
+        height: 71.5rem;
+    }
+
+    .secao__info___rodape{
+        padding-bottom: 0%;
+        margin-bottom: 3rem;
+        height: 57rem;
+    }
+    .secao__titulo___rodape{
+        padding-left: 0%;
+    }
+    .container__abas{
+        padding-bottom: 9.125rem;
+    }
+
+    .titulo__rodape{
+        font-size: 60px;
+    }
+    .botao__talk___footer{
+        width: 60vw;
+    }
+
+    .titulo__aba{
+        font-size: var(--font-sm);
+    }
+    .item__aba{
+        font-size:var(--font-xs);
+    }
+    .aba{
+        height: 13.688rem;
+        width: 12.5rem
+    }
+    .secao__brand{
+        padding-top: 0;
+    }
+    .titulo__brand{
+        font-size: 20px;
+    }
+    
+
+}
+@media (min-width:1025px) and (max-width:1355px){
+    .newsletter{
+        background-position-x: 9%;
+    }
+    .secao__comentarios{
+        padding-left: 7rem;
+    }
+    .comentario {
+        padding-right: 2.417rem;
+    }
+    .item__lista___comentarios{
+        height: 28rem;
+    }
+    .lista__comentarios{
+        height: 39rem;
+    }
+    .container__carousel{
+        height: 35rem;
+    }
+    
+    .botao__talk___footer{
+        width: 17vw;
+    }
+
+    /*-----------------------RODAPE----------------------------------*/
+    .secao__brand{
+        width: 80vw;
+    }
+}
+
+@media (min-width:1600px) {
+
+    /*-----------------CLIENTES-----------*/
+    .container__card___cliente-projetos{
+        height: 16.125rem;
+        justify-content: space-between;
+    }
+    .cliente-projetos{
+        gap: 5rem;
+
+        padding-left: 8.5vw;
+    
+    }
+    /*-------------------------------COMENTARIO--------------------*/
+    .secao__comentarios{
+        padding-left: 10.2rem;
+        padding-right: 4.5rem;
+    }
+    /*-----------------------RODAPE----------------------------------*/
+    .rodape{
+        padding-left: 2rem;
+        padding-right: 5vw;
+    }
+    .secao__info___rodape{
+        width: 80vw;
+     }
+     .secao__brand{
+        width: 80vw;
+    }
+}
