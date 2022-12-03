@@ -2,9 +2,9 @@
     .container__lets-talk{
         display: flex;
         position: fixed;
-        width: 100vw;
         justify-content: flex-end;
         top: 8rem;
+        left: 90%;
         padding-right: 2rem;
         padding-top: 0;
         z-index: 22;
@@ -255,6 +255,7 @@
         padding-right: 1rem;
 
         top: calc(100% - 8rem);
+        left: calc(100% - 8rem);
     }
     /*--------------------------FORM-CONTATO----------------------------*/
     .secao__form___contato{

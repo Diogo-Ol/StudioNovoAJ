@@ -301,6 +301,7 @@
         
         background-size: 20.938rem 40.125rem;
         height: auto;
+        align-items: center;
     }
     .subscribe{
         margin-left: -2%;

@@ -707,7 +707,8 @@
 
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
+        
 
         background-image: url("../../Assets/Home/logo-grande.svg");
         background-repeat: no-repeat;
@@ -1114,7 +1115,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        width: 75rem;
+        width: 72rem;
         justify-content: space-between;
         
         font-family: var(--heading-cabinet);
