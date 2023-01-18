@@ -461,28 +461,15 @@
         display: flex;
         flex-direction: row;
         gap: 6rem;
-        margin-bottom: 6.563rem;
     }
     .container__patrocinadores{
         display: flex;
         flex-direction: column-reverse;
-        height: 56px;
-        overflow-y: hidden;
+        gap: 4rem;
     }
-
-    .logo__patrocinadores-1{
-        position: relative;
-        animation: anima-logo-1 7s infinite alternate ease-in-out;
-        
-        
-    } 
-    .logo__patrocinadores-2{
-        position: relative;
-        animation: anima-logo-2 7s infinite alternate ease-in-out;
-    }
-    .logo__patrocinadores-3{
-        position: relative;
-        animation: anima-logo-3 7s infinite alternate ease-in-out;
+    #logo-wald{
+        height: 3rem;
+        width: 10rem;
     }
     /*------------------------------COMENTARIO-------------------------------*/
     .secao__comentarios{

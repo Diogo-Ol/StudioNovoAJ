@@ -28,7 +28,7 @@
         width: 100vw;
         height: 22rem;
 
-        background-size: 140vw;
+        background-size: 120vw;
 
         margin-top: 4.375rem;
     }
@@ -132,15 +132,18 @@
         position: relative;
         animation: anima-logo-1 7s infinite alternate ease-in-out;
         
-        
     } 
     .logo__patrocinadores-2{
         position: relative;
         animation: anima-logo-2 7s infinite alternate ease-in-out;
+
     }
     .logo__patrocinadores-3{
         position: relative;
         animation: anima-logo-3 7s infinite alternate ease-in-out;
+
+        height: 3rem;
+        width: 10rem;
     }
     /*-------------------------------O-QUE-FAZEMOS--------------------------------*/
     .do{
